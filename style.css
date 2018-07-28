@@ -1,0 +1,119 @@
+body {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#main {
+  margin: 5% 0% 5% 0%;
+}
+
+#title {
+  text-align: center;
+}
+
+#title p {
+  font-size: 18px;
+}
+
+#img-div {
+  margin: 1% 10% 1% 10%;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-width: 100%; 
+}
+
+#img-caption p {
+  font-size: 16px;
+}
+
+#tribute-info {
+  margin: 2% 0% 2% 0%;
+}
+
+ul {
+  margin: 1% 20% 1% 20%;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 2em;
+}
+
+ul li {
+  margin: 0% 3% 0% 0%;
+}
+
+blockquote {
+  margin: 1% 10% 1% 10%;
+}
+
+blockquote .quote {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+blockquote .quote-author {
+  text-align: right;
+  font-size: 16px;
+}
+
+.tribute-link {
+  margin: 1% 20% 1% 20%;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  font-family: 'Nova Flat', cursive;
+}
+
+footer p {
+  font-size: 18px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) {
+  #main {margin: 2% 0% 2% 0%;}
+  #title h1 {font-size: 18px;}
+  #title p {font-size: 14px;}
+  #img-div {margin: 1% 5% 1% 5%;}
+  #img-caption p {font-size: 12px;}
+  #tribute-info {margin: 1% 0% 1% 0%;}
+  ul {margin: 1% 2% 1% 2%; font-size: 12px; line-height: 1.5em;}
+  ul h3 {margin: 0% 4% 0% 0%;}
+  ul li {margin: 0% 4% 0% 0%;}
+  blockquote {margin: 1% 2% 1% 2%;}
+  blockquote .quote {font-size: 14px;}
+  blockquote .quote-author {font-size: 14px;}
+  .tribute-link {margin: 1% 2% 1% 2%; text-align: justify; font-size: 14px;}
+  footer p {font-size: 14px;}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  #main {margin: 2% 0% 2% 0%;}
+  #title h1 {font-size: 20px;}
+  #title p {font-size: 15px;}
+  #img-div {margin: 1% 5% 1% 5%;}
+  #img-caption p {font-size: 14px;}
+  #tribute-info {margin: 1% 0% 1% 0%;}
+  ul {margin: 1% 0% 1% 0%; font-size: 14px; line-height: 1.5em;}
+  ul h3 {margin: 0% 5% 0% 0%;}
+  ul li {margin: 0% 5% 0% 0%;}
+  blockquote {margin: 1% 2% 1% 2%;}
+  blockquote .quote {font-size: 14px;}
+  blockquote .quote-author {font-size: 14px;}
+  .tribute-link {margin: 1% 2% 1% 2%; text-align: justify; font-size: 14px;}
+  footer p {font-size: 14px;}
+}
